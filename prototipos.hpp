@@ -1,5 +1,5 @@
 #pragma once
-enum Donde { VACIO, INICIO, MITAD, FINAL, MIFA }; //MIFA = MITAD o FINAL
+enum Donde { INICIO, MIFA }; //MIFA = MITAD o FINAL
 template <typename Type> struct nodo_en_lista;
 template <typename Type> struct nodo;
 template <typename Type> struct arco;
